@@ -38,13 +38,26 @@ nav ul a{
     text-decoration: none;
     margin: 51px;
 }
+
+/* Shared Style */
+.secodary_bg{
+    background-color: #FFF8F3;
+}
 .dark_2{
     color: #474747;
 }
 .dark_3{
     color: #757575;
 }
-
+.section_title{
+    font-size: 35;
+    font-weight: bold;
+    color: #181818;
+}
+.section_desc{
+    font-size: 18px;
+    color:#757575 ;
+}
 .btn_primaray{
     background-color: #FD6E0A;
     font-weight: bold;
@@ -72,4 +85,27 @@ nav ul a{
 }
 .banner_desc{
     font-size: 18px;
+}
+/* Main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About styles */
+.about{
+    border-radius: 10px;
+    padding: 131px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about_items{
+    display: flex;
+    justify-content: space-around;
+}
+.item_title{
+    font-size: 20px;
+    color:#757575 ;
+}
+.about_border{
+    border:2px solid black;
 }
