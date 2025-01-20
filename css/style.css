@@ -10,8 +10,9 @@
 .header{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: top left,bottom right;
-    margin: 0;
+    background-position: bottom left,bottom right;
+    /* margin: 0; */
+    /* height: 837px; */
 }
 /* nav styles */
 nav{
@@ -71,6 +72,7 @@ nav ul a{
     display: flex;
     justify-content: space-between;
     margin: 0 32px 0 230px;
+    
 }
 .banner_content{
     max-width: 585px;
@@ -126,4 +128,11 @@ main section{
 .text_center{
     text-align: center;
     
+}
+.resume_container{
+    display:flex;
+    gap: 24px;
+}
+.exp_desc{
+    margin-bottom: 20px;
 }
